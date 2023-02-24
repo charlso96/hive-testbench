@@ -82,7 +82,7 @@ if [ "X$FORMAT" = "X" ]; then
 fi
 
 LOAD_FILE="load_${FORMAT}_${SCALE}.mk"
-SILENCE="2> /dev/null 1> /dev/null" 
+SILENCE="" 
 if [ "X$DEBUG_SCRIPT" != "X" ]; then
 	SILENCE=""
 fi
