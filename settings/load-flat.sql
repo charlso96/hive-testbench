@@ -1,5 +1,7 @@
 --set hive.enforce.bucketing=true;
 --set hive.enforce.sorting=true;
+set mapreduce.map.memory.mb=8192;
+set mapreduce.reduce.memory.mb=8192;
 set hive.exec.dynamic.partition.mode=nonstrict;
 set hive.exec.max.dynamic.partitions.pernode=1000000;
 set hive.exec.max.dynamic.partitions=1000000;
