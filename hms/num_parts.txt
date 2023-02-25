@@ -1,0 +1,7 @@
+MariaDB [metastore]> select count(*) from PARTITIONS;
++----------+
+| count(*) |
++----------+
+|     4932 |
++----------+
+1 row in set (0.00 sec)
