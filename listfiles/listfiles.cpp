@@ -31,8 +31,6 @@ int main(int argc, char ** argv) {
     hdfsFileInfo * part_list;
     std::ofstream output_file;
     output_file.open(output_path);
-
-    part_list = hdfsListDirectory(fs, &(orders_parts[0].mName[fs_path.size() + 5]), &part_list_size);
     for (int i = 0; i < 9; i++){
         for (int j = 0; j < orders_parts_size; j++) {
             auto start = std::chrono::high_resolution_clock::now();
