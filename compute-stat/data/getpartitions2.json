@@ -1,0 +1,664 @@
+{
+  "version" : "3.0.0",
+  "gauges" : {
+    "PS-MarkSweep.count" : {
+      "value" : 2
+    },
+    "PS-MarkSweep.time" : {
+      "value" : 50
+    },
+    "PS-Scavenge.count" : {
+      "value" : 14
+    },
+    "PS-Scavenge.time" : {
+      "value" : 87
+    },
+    "blocked.count" : {
+      "value" : 0
+    },
+    "count" : {
+      "value" : 43
+    },
+    "daemon.count" : {
+      "value" : 8
+    },
+    "deadlock.count" : {
+      "value" : 0
+    },
+    "deadlocks" : {
+      "value" : [ ]
+    },
+    "direct.capacity" : {
+      "value" : 8192
+    },
+    "direct.count" : {
+      "value" : 1
+    },
+    "direct.used" : {
+      "value" : 8192
+    },
+    "heap.committed" : {
+      "value" : 523239424
+    },
+    "heap.init" : {
+      "value" : 320864256
+    },
+    "heap.max" : {
+      "value" : 3817865216
+    },
+    "heap.usage" : {
+      "value" : 0.03022727557703284
+    },
+    "heap.used" : {
+      "value" : 115403664
+    },
+    "loaded" : {
+      "value" : 8721
+    },
+    "mapped.capacity" : {
+      "value" : 0
+    },
+    "mapped.count" : {
+      "value" : 0
+    },
+    "mapped.used" : {
+      "value" : 0
+    },
+    "new.count" : {
+      "value" : 0
+    },
+    "non-heap.committed" : {
+      "value" : 89456640
+    },
+    "non-heap.init" : {
+      "value" : 2555904
+    },
+    "non-heap.max" : {
+      "value" : -1
+    },
+    "non-heap.usage" : {
+      "value" : -8.7096648E7
+    },
+    "non-heap.used" : {
+      "value" : 87096648
+    },
+    "open_connections" : {
+      "value" : 0
+    },
+    "pools.Code-Cache.usage" : {
+      "value" : 0.09318567911783854
+    },
+    "pools.Compressed-Class-Space.usage" : {
+      "value" : 0.005826503038406372
+    },
+    "pools.Metaspace.usage" : {
+      "value" : 0.9773381096976144
+    },
+    "pools.PS-Eden-Space.usage" : {
+      "value" : 0.05751427487402965
+    },
+    "pools.PS-Old-Gen.usage" : {
+      "value" : 0.007890685230591759
+    },
+    "pools.PS-Survivor-Space.usage" : {
+      "value" : 0.9700183868408203
+    },
+    "runnable.count" : {
+      "value" : 3
+    },
+    "terminated.count" : {
+      "value" : 0
+    },
+    "timed_waiting.count" : {
+      "value" : 5
+    },
+    "total.committed" : {
+      "value" : 612696064
+    },
+    "total.init" : {
+      "value" : 323420160
+    },
+    "total.max" : {
+      "value" : 3817865215
+    },
+    "total.used" : {
+      "value" : 202500312
+    },
+    "total_count_dbs" : {
+      "value" : 3
+    },
+    "total_count_partitions" : {
+      "value" : 4932
+    },
+    "total_count_tables" : {
+      "value" : 17
+    },
+    "unloaded" : {
+      "value" : 0
+    },
+    "waiting.count" : {
+      "value" : 35
+    }
+  },
+  "counters" : {
+    "active_calls_create_table" : {
+      "count" : 0
+    },
+    "active_calls_get_aggr_stats_for" : {
+      "count" : 0
+    },
+    "active_calls_get_all_functions" : {
+      "count" : 0
+    },
+    "active_calls_get_database" : {
+      "count" : 0
+    },
+    "active_calls_get_databases" : {
+      "count" : 0
+    },
+    "active_calls_get_foreign_keys" : {
+      "count" : 0
+    },
+    "active_calls_get_materialized_views_for_rewriting" : {
+      "count" : 0
+    },
+    "active_calls_get_multi_table" : {
+      "count" : 0
+    },
+    "active_calls_get_not_null_constraints" : {
+      "count" : 0
+    },
+    "active_calls_get_partitions" : {
+      "count" : 0
+    },
+    "active_calls_get_partitions_by_expr" : {
+      "count" : 0
+    },
+    "active_calls_get_primary_keys" : {
+      "count" : 0
+    },
+    "active_calls_get_table" : {
+      "count" : 0
+    },
+    "active_calls_get_table_statistics_req" : {
+      "count" : 0
+    },
+    "active_calls_get_tables_by_type" : {
+      "count" : 0
+    },
+    "active_calls_get_unique_constraints" : {
+      "count" : 0
+    },
+    "create_total_count_dbs" : {
+      "count" : 0
+    },
+    "create_total_count_partitions" : {
+      "count" : 0
+    },
+    "create_total_count_tables" : {
+      "count" : 1
+    },
+    "delete_total_count_dbs" : {
+      "count" : 0
+    },
+    "delete_total_count_partitions" : {
+      "count" : 0
+    },
+    "delete_total_count_tables" : {
+      "count" : 0
+    },
+    "directsql_errors" : {
+      "count" : 0
+    },
+    "jvm.pause.extraSleepTime" : {
+      "count" : 117
+    },
+    "jvm.pause.info-threshold" : {
+      "count" : 0
+    },
+    "jvm.pause.warn-threshold" : {
+      "count" : 0
+    }
+  },
+  "histograms" : { },
+  "meters" : { },
+  "timers" : {
+    "api_create_table" : {
+      "count" : 1,
+      "max" : 103.33694799999999,
+      "mean" : 103.33694799999999,
+      "min" : 103.33694799999999,
+      "p50" : 103.33694799999999,
+      "p75" : 103.33694799999999,
+      "p95" : 103.33694799999999,
+      "p98" : 103.33694799999999,
+      "p99" : 103.33694799999999,
+      "p999" : 103.33694799999999,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_create_table_with_environment_context" : {
+      "count" : 1,
+      "max" : 104.169203,
+      "mean" : 104.169203,
+      "min" : 104.169203,
+      "p50" : 104.169203,
+      "p75" : 104.169203,
+      "p95" : 104.169203,
+      "p98" : 104.169203,
+      "p99" : 104.169203,
+      "p999" : 104.169203,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_flushCache" : {
+      "count" : 22,
+      "max" : 0.366147,
+      "mean" : 0.026747650889999707,
+      "min" : 0.02582,
+      "p50" : 0.027674999999999998,
+      "p75" : 0.027674999999999998,
+      "p95" : 0.027674999999999998,
+      "p98" : 0.027674999999999998,
+      "p99" : 0.027674999999999998,
+      "p999" : 0.027674999999999998,
+      "stddev" : 9.27864771281814E-4,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_aggr_stats_for" : {
+      "count" : 24,
+      "max" : 107.35349699999999,
+      "mean" : 50.90188428288728,
+      "min" : 21.027407999999998,
+      "p50" : 63.212959,
+      "p75" : 80.598671,
+      "p95" : 80.598671,
+      "p98" : 80.598671,
+      "p99" : 80.598671,
+      "p999" : 80.598671,
+      "stddev" : 29.57676401896329,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_all_functions" : {
+      "count" : 20,
+      "max" : 68.277633,
+      "mean" : 19.652637646022885,
+      "min" : 7.163918,
+      "p50" : 19.550166,
+      "p75" : 19.757278,
+      "p95" : 19.757278,
+      "p98" : 19.757278,
+      "p99" : 19.757278,
+      "p999" : 19.757278,
+      "stddev" : 0.15288411039701946,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_database" : {
+      "count" : 64,
+      "max" : 13.824389,
+      "mean" : 2.108469416489499,
+      "min" : 1.759639,
+      "p50" : 2.00594,
+      "p75" : 2.475681,
+      "p95" : 2.639353,
+      "p98" : 2.639353,
+      "p99" : 2.639353,
+      "p999" : 2.639353,
+      "stddev" : 0.33028368497980076,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_databases" : {
+      "count" : 42,
+      "max" : 5.107044999999999,
+      "mean" : 2.240702435594337,
+      "min" : 2.007614,
+      "p50" : 2.214645,
+      "p75" : 2.30327,
+      "p95" : 2.4492339999999997,
+      "p98" : 2.4492339999999997,
+      "p99" : 2.4492339999999997,
+      "p999" : 2.4492339999999997,
+      "stddev" : 0.1601377966510598,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_foreign_keys" : {
+      "count" : 104,
+      "max" : 9.753705,
+      "mean" : 2.2007338194975317,
+      "min" : 1.5205309999999999,
+      "p50" : 1.979973,
+      "p75" : 2.164568,
+      "p95" : 3.108613,
+      "p98" : 3.108613,
+      "p99" : 3.108613,
+      "p999" : 3.108613,
+      "stddev" : 0.49737995538710544,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_materialized_views_for_rewriting" : {
+      "count" : 66,
+      "max" : 13.529800999999999,
+      "mean" : 2.8283676879821242,
+      "min" : 2.457937,
+      "p50" : 2.80244,
+      "p75" : 2.9369829999999997,
+      "p95" : 3.1690359999999997,
+      "p98" : 3.1690359999999997,
+      "p99" : 3.1690359999999997,
+      "p999" : 3.1690359999999997,
+      "stddev" : 0.20701741747348118,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_multi_table" : {
+      "count" : 30,
+      "max" : 0.089463,
+      "mean" : 0.013422092330635755,
+      "min" : 0.012317999999999999,
+      "p50" : 0.01298,
+      "p75" : 0.014966,
+      "p95" : 0.014966,
+      "p98" : 0.014966,
+      "p99" : 0.014966,
+      "p999" : 0.014966,
+      "stddev" : 0.0011279638391915587,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_not_null_constraints" : {
+      "count" : 104,
+      "max" : 23.462922,
+      "mean" : 6.089903432487562,
+      "min" : 1.57093,
+      "p50" : 2.091198,
+      "p75" : 2.401607,
+      "p95" : 18.236135,
+      "p98" : 18.236135,
+      "p99" : 18.236135,
+      "p999" : 18.236135,
+      "stddev" : 6.962314476622065,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_partitions" : {
+      "count" : 14,
+      "max" : 192.523555,
+      "mean" : 169.68906384289176,
+      "min" : 139.536736,
+      "p50" : 169.568184,
+      "p75" : 169.819917,
+      "p95" : 169.819917,
+      "p98" : 169.819917,
+      "p99" : 169.819917,
+      "p999" : 169.819917,
+      "stddev" : 0.3875267152341777,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_partitions_by_expr" : {
+      "count" : 18,
+      "max" : 499.649594,
+      "mean" : 39.737785079792275,
+      "min" : 39.650258,
+      "p50" : 39.825300999999996,
+      "p75" : 39.825300999999996,
+      "p95" : 39.825300999999996,
+      "p98" : 39.825300999999996,
+      "p99" : 39.825300999999996,
+      "p999" : 39.825300999999996,
+      "stddev" : 0.08870118187163761,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_primary_keys" : {
+      "count" : 208,
+      "max" : 9.515759,
+      "mean" : 1.7112905825455471,
+      "min" : 1.191303,
+      "p50" : 1.636576,
+      "p75" : 2.018993,
+      "p95" : 2.488606,
+      "p98" : 2.488606,
+      "p99" : 2.488606,
+      "p999" : 2.488606,
+      "stddev" : 0.4036879620686281,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_table" : {
+      "count" : 101,
+      "max" : 87.54482999999999,
+      "mean" : 11.036615689664371,
+      "min" : 2.0894589999999997,
+      "p50" : 10.399784,
+      "p75" : 10.504302,
+      "p95" : 17.888481,
+      "p98" : 17.888481,
+      "p99" : 17.888481,
+      "p999" : 17.888481,
+      "stddev" : 2.5964938990516933,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_table_objects_by_name_req" : {
+      "count" : 30,
+      "max" : 1.9753239999999999,
+      "mean" : 0.21372324392013156,
+      "min" : 0.13362,
+      "p50" : 0.148373,
+      "p75" : 0.359178,
+      "p95" : 0.359178,
+      "p98" : 0.359178,
+      "p99" : 0.359178,
+      "p999" : 0.359178,
+      "stddev" : 0.10302346143697526,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_table_req" : {
+      "count" : 101,
+      "max" : 88.963974,
+      "mean" : 11.226258967032985,
+      "min" : 2.427648,
+      "p50" : 10.568595,
+      "p75" : 10.761484999999999,
+      "p95" : 18.123577,
+      "p98" : 18.123577,
+      "p99" : 18.123577,
+      "p999" : 18.123577,
+      "stddev" : 2.614961517010793,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_table_statistics_req" : {
+      "count" : 72,
+      "max" : 24.97937,
+      "mean" : 13.814045179140832,
+      "min" : 9.49062,
+      "p50" : 10.824406999999999,
+      "p75" : 16.821163,
+      "p95" : 17.059766,
+      "p98" : 17.059766,
+      "p99" : 17.059766,
+      "p999" : 17.059766,
+      "stddev" : 3.104336486551075,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_tables_by_type" : {
+      "count" : 60,
+      "max" : 5.265898,
+      "mean" : 2.1207497463000182,
+      "min" : 1.812833,
+      "p50" : 2.183869,
+      "p75" : 2.2764729999999997,
+      "p95" : 2.27672,
+      "p98" : 2.27672,
+      "p99" : 2.27672,
+      "p999" : 2.27672,
+      "stddev" : 0.15623353793379824,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_get_unique_constraints" : {
+      "count" : 104,
+      "max" : 9.482206,
+      "mean" : 1.7247255279420723,
+      "min" : 1.290084,
+      "p50" : 1.589532,
+      "p75" : 1.93922,
+      "p95" : 2.426472,
+      "p98" : 2.426472,
+      "p99" : 2.426472,
+      "p999" : 2.426472,
+      "stddev" : 0.37465098759715665,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_init" : {
+      "count" : 1,
+      "max" : 3129.5293819999997,
+      "mean" : 3129.5293819999997,
+      "min" : 3129.5293819999997,
+      "p50" : 3129.5293819999997,
+      "p75" : 3129.5293819999997,
+      "p95" : 3129.5293819999997,
+      "p98" : 3129.5293819999997,
+      "p99" : 3129.5293819999997,
+      "p999" : 3129.5293819999997,
+      "stddev" : 0.0,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_set_ugi" : {
+      "count" : 32,
+      "max" : 0.23332899999999998,
+      "mean" : 0.027810599186989342,
+      "min" : 0.024395,
+      "p50" : 0.026916,
+      "p75" : 0.031522999999999995,
+      "p95" : 0.031522999999999995,
+      "p98" : 0.031522999999999995,
+      "p99" : 0.031522999999999995,
+      "p999" : 0.031522999999999995,
+      "stddev" : 0.002721815533431079,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    },
+    "api_shutdown" : {
+      "count" : 22,
+      "max" : 0.904368,
+      "mean" : 0.6385901167315652,
+      "min" : 0.245698,
+      "p50" : 0.644919,
+      "p75" : 0.644919,
+      "p95" : 0.644919,
+      "p98" : 0.644919,
+      "p99" : 0.644919,
+      "p999" : 0.644919,
+      "stddev" : 0.04592140360004837,
+      "m15_rate" : 0.0,
+      "m1_rate" : 0.0,
+      "m5_rate" : 0.0,
+      "mean_rate" : 0.0,
+      "duration_units" : "milliseconds",
+      "rate_units" : "calls/millisecond"
+    }
+  }
+}
