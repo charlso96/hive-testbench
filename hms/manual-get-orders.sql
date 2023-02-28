@@ -3,7 +3,8 @@ p.LAST_ACCESS_TIME, sd.INPUT_FORMAT, sd.IS_COMPRESSED, sd.IS_STOREDASSUBDIRECTOR
 sd.LOCATION, sd.NUM_BUCKETS, sd.OUTPUT_FORMAT, ser.NAME, ser.SLIB, pp.PARAM_KEYS, pp.PARAM_VALUES, pk.PART_KEY_VALS,
 sdp.PARAM_KEYS, sdp.PARAM_VALUES, sc.COLUMN_NAMES, sc.ORDERS, bc.BUCKET_COL_NAMES, skc.SKEWED_COL_NAMES, serp.PARAM_KEYS, 
 serp.PARAM_VALUES
-from PARTITIONS as p inner join TBLS as t on p.TBL_ID = t.TBL_ID and t.TBL_NAME = 'orders' 
+from PARTITIONS as p 
+    inner join TBLS as t on p.TBL_ID = t.TBL_ID and t.TBL_NAME = 'orders' 
     inner join DBS as d on t.DB_ID = d.DB_ID and d.NAME = 'tpch_partitioned_orc_2' and d.CTLG_NAME ='hive'
     left outer join SDS as sd on p.SD_ID = sd.SD_ID 
     left outer join SERDES as ser on sd.SERDE_ID = ser.SERDE_ID 
